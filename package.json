@@ -1,0 +1,43 @@
+{
+  "name": "openssl-smime",
+  "author": "DonVietnam",
+  "version": "1.0.0",
+  "description": "Node.js wrapper for OpenSSL S/MIME utility.",
+  "license": "MIT",
+  "keywords": [
+    "vietnam",
+    "nodejs",
+    "openssl",
+    "smime",
+    "s/mime",
+    "pkcs7",
+    "sign",
+    "resign",
+    "encrypt",
+    "decrypt",
+    "verify",
+    "pk7out",
+    "pem"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DonVietnam/openssl-smime"
+  },
+  "bugs": {
+    "url": "https://github.com/DonVietnam/openssl-smime/issues"
+  },
+  "homepage": "https://github.com/DonVietnam/openssl-smime",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint --ignore-path .gitignore .",
+    "fix": "eslint --fix --ignore-path .gitignore ."
+  },
+  "engines": {
+    "node": "^12.9 || 14 || 16"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.8.1"
+  }
+}
