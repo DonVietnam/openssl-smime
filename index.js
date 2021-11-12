@@ -1,2 +1,1 @@
-const smime = require( './lib/smime.js' );
-module.exports = smime;
+module.exports.smime = require( './lib/smime.js' );

@@ -1,7 +1,7 @@
 {
   "name": "openssl-smime",
   "author": "DonVietnam",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js wrapper for OpenSSL S/MIME utility.",
   "license": "MIT",
   "keywords": [
