@@ -28,16 +28,19 @@
   },
   "homepage": "https://github.com/DonVietnam/openssl-smime",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "start": "node index.js",
     "lint": "eslint --ignore-path .gitignore .",
-    "fix": "eslint --fix --ignore-path .gitignore ."
+    "fix": "eslint --fix --ignore-path .gitignore .",
+    "types": "tsc -p tsconfig.json"
   },
   "engines": {
     "node": "^12.9 || 14 || 16"
   },
-  "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.8.1"
+    "@types/node": "^16.11.7",
+    "eslint": "^7.8.1",
+    "typescript": "^4.4.4"
   }
 }
